@@ -9,7 +9,8 @@ const hub = new HubRegistry([conf.path.tasks('*.js')]);
 
 // Tell gulp to use the tasks just loaded
 gulp.registry(hub);
-
+console.log('不需要被revert的代码')
+console.log('不需要被revert的代码')
 gulp.task('build', gulp.series(gulp.parallel('other', 'webpack:dist')));
 gulp.task('test', gulp.series('karma:single-run'));
 gulp.task('test:auto', gulp.series('karma:auto-run'));
