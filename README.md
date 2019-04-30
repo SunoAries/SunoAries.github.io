@@ -1,4 +1,4 @@
 # SunoAries.github.io
-入口~~
-a little fun
+## entry of my work 
+just have a little fun
 [click me](https://sunoaries.github.io)
