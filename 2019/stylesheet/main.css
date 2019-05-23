@@ -1,6 +1,6 @@
 body {
-  width: 60vh;
-  margin: 0 auto
+  width: 60vw;
+  margin: 0 auto;
 }
 h1,h2,h3 {
   text-align: center;
@@ -8,10 +8,14 @@ h1,h2,h3 {
 wrapper {
   display: block;
   height: 30vh;
+  background: lightblue
 }
 copyright {
   display: block;
-  text-align: right;
+  text-align: right; 
+}
+.sa_content {
+  margin-top: 40px;
 }
 .sa_content a{
   text-decoration: none;
