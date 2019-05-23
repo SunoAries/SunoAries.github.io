@@ -1,11 +1,18 @@
 body {
-  width: 60%;
+  width: 60vh;
   margin: 0 auto
 }
 h1,h2,h3 {
   text-align: center;
 }
+wrapper {
+  display: block;
+  height: 30vh;
+}
 copyright {
   display: block;
   text-align: right;
+}
+.sa_content a{
+  text-decoration: none;
 }
