@@ -64,6 +64,7 @@ function init () {
   x = 'as'
   // eslint-disable-next-line no-console
   console.log(x)
+  /*global marked */
   document.getElementById('content').innerHTML = marked(content)
 }
 
