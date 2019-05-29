@@ -20,3 +20,8 @@ copyright {
 .sa_content a{
   text-decoration: none;
 }
+i.iconfont {
+  font-size: 30px;
+  color: black;
+  padding: 5px;
+}
