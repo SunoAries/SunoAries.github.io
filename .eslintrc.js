@@ -14,5 +14,12 @@ module.exports = {
     "rules": {
         "semi": ["error", "never"],
         "quotes": ["error", "single"]
-    }
+    },
+    overrides: [
+        {
+          files: [
+            '2019/**/*.js'
+          ],
+        }
+      ],
 };

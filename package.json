@@ -29,9 +29,8 @@
   "homepage": "https://github.com/SunoAries/SunoAries.github.io#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "eslint",
-      "pre-push": "eslint",
-      "commit-msg": "commitlint"
+      "pre-commit": "eslint 2019",
+      "pre-push": "eslint"
     }
   }
 }
