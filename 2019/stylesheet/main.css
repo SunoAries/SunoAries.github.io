@@ -7,8 +7,8 @@ h1,h2,h3 {
 }
 wrapper {
   display: block;
-  height: 30vh;
-  background: lightblue
+  background: #e3eef2;
+  padding: 30px 30px 50px;
 }
 copyright {
   display: block;
@@ -24,4 +24,7 @@ i.iconfont {
   font-size: 30px;
   color: black;
   padding: 5px;
+}
+p {
+  text-indent: 2em
 }

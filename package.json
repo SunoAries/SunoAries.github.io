@@ -1,0 +1,37 @@
+{
+  "name": "sunoaries.github.io",
+  "version": "1.0.0",
+  "description": "dashboard",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "husky": "^2.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunoAries/SunoAries.github.io.git"
+  },
+  "keywords": [
+    "dashboard",
+    "main",
+    "entry",
+    "personal"
+  ],
+  "author": "chenglin.xiao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SunoAries/SunoAries.github.io/issues"
+  },
+  "homepage": "https://github.com/SunoAries/SunoAries.github.io#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "eslint",
+      "pre-push": "eslint",
+      "commit-msg": "commitlint"
+    }
+  }
+}
